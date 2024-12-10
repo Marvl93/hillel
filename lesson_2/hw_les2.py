@@ -11,10 +11,10 @@ print(n3)
 print(n4)
 
 print(f"{n1}-{n2}-{n3}-{n4}")
-numbers_multiplication = (n1 * n2) ** n3 + n4
-print(f"The multiplication of the numbers: {numbers_multiplication}")
+numbers_multiplication = n1 * n2 * n3 * n4
+print(f"Якщо перемножити то буде...: {numbers_multiplication}")
 print(divmod(n1, n4))
-print(type(number))
+print(type(numbers_multiplication))
 
 # Homework 2.2
 number = int(input("Введіть 5-значне число: "))
