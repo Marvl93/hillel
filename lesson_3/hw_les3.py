@@ -1,14 +1,20 @@
+#Homework 3.1
+
 number1 = int(input("Enter first number: "))
 number2 = int(input("Enter second number: "))
 
-match number1 and number2:
-    case ("+"):
+user_select = int(input("1. + \n2. -\n3. /\n4. *\nSelect your choice: "))
+
+match user_select:
+    case 1:
         print(number1+number2)
-    case ("-"):
+    case 2:
         print(number1-number2)
-    case ("/"):
-        print(number1/number2)
-    case ("*"):
+    case 3:
+        print(number1/number2) if number2 != 0 else print("Error")
+    case 4:
         print(number1*number2)
-    case _: # аналог else
+    case _:
         print("Invalid input please try again")
+
+#Homework 3.2
