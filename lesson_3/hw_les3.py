@@ -26,10 +26,10 @@
 # print(numbers)
 
 # Homework 3.3
-# num = [1, 2, 3, 4, 5, 6]
-# part1 = num[:len(num)//2]
-# part2 = num[len(num)//2:]
-# print(num)
-# print(part1, part2)
-# result = [part1, part2]
-# print(num,'==>', result)
+num = [1, 2, 3, 4, 5, 6]
+part1 = num[:len(num)//2]
+part2 = num[len(num)//2:]
+print(num)
+print(part1, part2)
+result = [part1, part2]
+print(num,'==>', result)
