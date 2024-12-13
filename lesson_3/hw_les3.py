@@ -33,3 +33,17 @@ print(num)
 print(part1, part2)
 result = [part1, part2]
 print(num,'==>', result)
+
+num2 = [1, 2, 3, 4, 5]
+part1_1 = num2[:len(num2)//2]
+part2_1 = num2[len(num2)//2:]
+print(part1_1, part2_1)
+result2 = [part1_1, part2_1]
+print(num2, '==>', result2)
+
+num3 = [1,2,3]
+part1_2 = num3[len(num3)//4:]
+part2_2 = num3[:len(num3)//1]
+print(part1_2, part2_2)
+result3 = [part1_2, part2_2]
+print(num3, '==>', result3)
