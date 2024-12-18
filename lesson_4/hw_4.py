@@ -41,7 +41,7 @@
 import random
 
 numbers = [random.randint(1, 100) for num in range(random.randint(3, 10))]
-print("Исходный список:", numbers)
+print("Рандомный список:", numbers)
 
 # Создаем новый список из 3 элементов: первого, третьего и второго с конца
 new_list = [numbers[0], numbers[2], numbers[-2]]
