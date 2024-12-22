@@ -1,3 +1,29 @@
+# # #Homework 5.1. Ім'я змінної
+import keyword
+
+user_input = input("Enter variable name: ")
+
+valid = True
+
+if user_input[0].isdigit():
+    valid = False
+else:
+    for char in user_input:
+        if char.isupper():
+            valid = False
+            break
+        elif not (char.isalnum() or char == "_"):
+            valid = False
+            break
+
+    if user_input.count("_") > 1:
+        valid = False
+
+    if user_input in keyword.kwlist:
+        valid = False
+
+print(valid)
+
 # # #Homework 5.2. Модифікувати калькулятор
 # while True:
 #     number1 = int(input("Enter first number: "))
