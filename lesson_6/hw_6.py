@@ -11,8 +11,9 @@
 # result = ""
 # for i in range(start_index, end_index):
 #     result += all_letters[i]
-
+#
 # print(result)
+
 # HW 6.2. Конвертер із числа в дату
 # while True:
 #     try:
@@ -45,22 +46,22 @@
 #         print("Будь ласка, введіть ціле число.")
 
 #HW 6.3. Добуток чисел
-while True:
-    try:
-        number = int(input("Введіть ціле число: "))
-
-        if number < 0:
-            print("Будь ласка, введіть додатне число.")
-            continue
-
-        while number > 9:
-            result = 1
-            for dig in str(number):
-                result *= int(dig)
-            number = result
-
-        print(f"Результат: {number}")
-
-    except ValueError:
-        print("Будь ласка, введіть коректне ціле число.")
+# while True:
+#     try:
+#         number = int(input("Введіть ціле число: "))
+#
+#         if number < 0:
+#             print("Будь ласка, введіть додатне число.")
+#             continue
+#
+#         while number > 9:
+#             result = 1
+#             for disp in str(number):
+#                 result *= int(disp)
+#             number = result
+#
+#         print(f"Результат: {number}")
+#
+#     except ValueError:
+#         print("Будь ласка, введіть коректне ціле число.")
 
